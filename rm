@@ -1,0 +1,105 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{setspace}
+
+\title{\textbf{Review of CuTCrAl (T = Co and Fe) Heusler Alloys}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This review summarizes the research work on equiatomic quaternary Heusler alloys CuCoCrAl and CuFeCrAl. The study mainly focuses on their structural, magnetic, and electrical transport properties. Experimental techniques such as X-ray diffraction (XRD), neutron powder diffraction (NPD), magnetization, and resistivity measurements were used. The alloys showed coexistence of cubic and tetragonal crystal phases along with ferrimagnetic behavior. Electrical resistivity measurements confirmed metallic nature with weak localization at low temperature. These materials are important because of their possible applications in spintronic and magnetic memory devices.
+\end{abstract}
+
+\section{Introduction}
+
+Heusler alloys are special magnetic materials widely studied for spintronic applications because of their interesting magnetic and electrical properties. Equiatomic quaternary Heusler alloys generally have the formula XX$'$YZ, where X, X$'$, and Y are transition metals and Z is a main group element.
+
+In this research work, two alloys namely CuCoCrAl (CCCA) and CuFeCrAl (CFCA) were studied. The aim was to understand their crystal structure, magnetic properties, and transport behavior. These materials are important because tetragonal Heusler alloys can be useful in magnetic random access memory and spin transfer torque devices.
+
+\section{Materials and Methodology}
+
+The alloys were prepared using the arc melting method under argon atmosphere using high purity elements. After melting, the samples were annealed at $850^\circ$C for seven days to improve homogeneity.
+
+Different characterization techniques were used:
+
+\begin{itemize}
+    \item X-ray diffraction (XRD) for crystal structure analysis
+    \item Neutron powder diffraction (NPD) for magnetic structure study
+    \item Magnetization measurements using VSM
+    \item Electrical resistivity measurements using four-probe method
+\end{itemize}
+
+The magnetic moment of Heusler alloys is commonly related to the Slater-Pauling rule:
+
+\[
+m = (N_v - 28)\mu_B
+\]
+
+where:
+\begin{itemize}
+    \item $m$ = total magnetic moment
+    \item $N_v$ = number of valence electrons
+    \item $\mu_B$ = Bohr magneton
+\end{itemize}
+
+\section{Results and Discussion}
+
+XRD and neutron diffraction results confirmed that both alloys contain mixed cubic and tetragonal phases. The coexistence of these two phases is an important feature because it affects magnetic and electrical properties.
+
+The CuCoCrAl alloy showed nearly 52\% cubic phase and 48\% tetragonal phase, while CuFeCrAl mainly contained cubic phase with a small tetragonal contribution.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{figure1.png}
+\caption{XRD patterns and crystal structures of CuCoCrAl and CuFeCrAl alloys.}
+\label{fig:xrd}
+\end{figure}
+
+Magnetization studies revealed ferrimagnetic behavior with low magnetic moment. The measured magnetic moments were lower than the values predicted by the Slater-Pauling rule. This reduction is mainly due to structural disorder and tetragonal distortion.
+
+Electrical resistivity measurements showed metallic behavior in both alloys. At low temperature, a small increase in resistivity was observed because of weak localization effects and electron scattering mechanisms.
+
+\begin{table}[h!]
+\centering
+\caption{Important observations for CuCoCrAl and CuFeCrAl alloys}
+\begin{tabular}{ccc}
+\toprule
+Property & CuCoCrAl & CuFeCrAl \\
+\midrule
+Crystal Structure & Cubic + Tetragonal & Mainly Cubic \\
+Magnetic Nature & Ferrimagnetic & Ferrimagnetic \\
+Electrical Behavior & Metallic & Metallic \\
+Curie Temperature & 204 K & Above Room Temp. \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The coexistence of cubic and tetragonal phases together with ferrimagnetism makes these materials promising for future spintronic applications.
+
+\section{Conclusion}
+
+This review explains the important findings of CuCoCrAl and CuFeCrAl Heusler alloys. Both materials showed mixed cubic and tetragonal phases along with ferrimagnetic behavior. The alloys also exhibited metallic electrical transport properties. Structural disorder and tetragonal distortion affected their magnetic moments and resistivity behavior. Due to their low magnetic moment and interesting magnetic properties, these alloys may be useful for magnetic memory and spintronic devices.
+
+\section{References}
+
+\begin{enumerate}
+    \item Gupta, S. et al. Coexisting cubic and tetragonal phases with ferrimagnetism in equiatomic quaternary Heusler alloys. \textit{Journal of Magnetism and Magnetic Materials}, 583, 170992 (2023).
+
+    \item Felser, C., Fecher, G.H., and Balke, B. Spintronics materials and Heusler alloys. \textit{Angewandte Chemie International Edition}, 46, 668--699 (2007).
+
+    \item Bainsla, L. and Suresh, K.G. Equiatomic quaternary Heusler alloys for spintronic applications. \textit{Applied Physics Reviews}, 3, 031101 (2016).
+
+    \item Wang, X.L. Spin gapless semiconductors. \textit{Physical Review Letters}, 100, 156404 (2008).
+
+    \item Katsnelson, M.I. et al. Half-metallic ferromagnets and magnetic materials. \textit{Reviews of Modern Physics}, 80, 315--378 (2008).
+\end{enumerate}
+
+\end{document}
