@@ -1,0 +1,115 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{setspace}
+
+\onehalfspacing
+
+\title{\textbf{Review of Half-Metallic Ferromagnetism and Ru-Induced Localization in CoRuMnSi Heusler Alloy}}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+This review summarizes the important findings of the quaternary Heusler alloy CoRuMnSi. The paper mainly focuses on the structural, magnetic, electronic, and transport properties of the alloy. Experimental and theoretical studies were performed using X-ray diffraction, magnetization, resistivity measurements, and density functional theory calculations. The alloy showed half-metallic ferromagnetism with localized transport behavior at low temperature. The presence of Ru helped in reducing structural disorder and improving magnetic properties. Due to these properties, CoRuMnSi is considered a promising material for spintronic applications.
+\end{abstract}
+
+\section{Introduction}
+
+Heusler alloys are important magnetic materials widely studied for spintronic applications because of their unique magnetic and electronic properties. Some Heusler alloys show half-metallic ferromagnetism and spin gapless semiconductor behavior, which are useful for magnetic memory devices and spin-based electronics.
+
+In many Heusler alloys, disorder occurs because elements with similar electronegativity occupy incorrect lattice sites. To reduce this disorder, one transition metal can be replaced with a 4d or 5d element. In this work, Fe was replaced by Ru to form the alloy CoRuMnSi.
+
+The main aim of the study was to investigate the crystal structure, magnetic properties, and transport behavior of CoRuMnSi alloy.
+
+\section{Materials and Methodology}
+
+The alloy was prepared using the arc melting method followed by annealing for better homogeneity. Structural analysis was carried out using X-ray diffraction (XRD). Magnetization measurements were used to study magnetic behavior, while electrical resistivity measurements were used to understand transport properties.
+
+Theoretical calculations were performed using density functional theory (DFT) with generalized gradient approximation (GGA).
+
+The magnetic moment of Heusler alloys generally follows the Slater-Pauling rule:
+
+\[
+m = (N_v - 24)\mu_B
+\]
+
+where:
+\begin{itemize}
+    \item $m$ = total magnetic moment
+    \item $N_v$ = number of valence electrons
+    \item $\mu_B$ = Bohr magneton
+\end{itemize}
+
+\section{Results and Discussion}
+
+XRD analysis confirmed that CoRuMnSi crystallizes in the LiMgPdSn-type Heusler structure. The introduction of Ru reduced structural disorder and improved crystal quality.
+
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{figure1.png}
+\caption{XRD pattern and crystal structure of CoRuMnSi Heusler alloy.}
+\label{fig:xrd}
+\end{figure}
+
+Magnetization measurements revealed ferromagnetic behavior with high Curie temperature. The alloy followed the Slater-Pauling rule reasonably well, indicating half-metallic nature.
+
+Electrical resistivity measurements showed metallic behavior. At low temperature, localization behavior was observed due to scattering effects. The resistivity behavior can be expressed as:
+
+\[
+\rho(T) = \rho_0 + BT^n
+\]
+
+where:
+\begin{itemize}
+    \item $\rho(T)$ = electrical resistivity
+    \item $\rho_0$ = residual resistivity
+    \item $B$ = constant
+    \item $n$ = temperature exponent
+\end{itemize}
+
+\begin{table}[h!]
+\centering
+\caption{Important properties of CoRuMnSi alloy}
+\begin{tabular}{cc}
+\toprule
+Property & Observation \\
+\midrule
+Crystal Structure & LiMgPdSn-type \\
+Magnetic Nature & Ferromagnetic \\
+Electrical Nature & Metallic \\
+Transport Behavior & Weak localization at low temperature \\
+Application & Spintronics \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The coexistence of half-metallic ferromagnetism and localized transport behavior makes CoRuMnSi an important material for future spintronic devices.
+
+\section{Conclusion}
+
+This review summarizes the important properties of CoRuMnSi Heusler alloy. The alloy showed ordered crystal structure, ferromagnetic behavior, and metallic electrical transport properties. The introduction of Ru reduced structural disorder and improved magnetic characteristics. Weak localization effects were observed at low temperature. Due to its half-metallic nature and good magnetic properties, CoRuMnSi is a promising candidate for spintronic applications.
+
+\section{References}
+
+\begin{enumerate}
+
+\item Venkateswara, Y. et al. Half-metallic ferromagnetism and Ru-induced localization in quaternary Heusler alloy CoRuMnSi. \textit{Journal of Magnetism and Magnetic Materials}, 502, 166536 (2020).
+
+\item Felser, C., Fecher, G.H., and Balke, B. Spintronics materials and Heusler alloys. \textit{Angewandte Chemie International Edition}, 46, 668--699 (2007).
+
+\item Katsnelson, M.I. et al. Half-metallic ferromagnets: From band structure to many-body effects. \textit{Reviews of Modern Physics}, 80, 315--378 (2008).
+
+\item Wang, X.L. Proposal for spin gapless semiconductors. \textit{Physical Review Letters}, 100, 156404 (2008).
+
+\item Bainsla, L. and Suresh, K.G. Equiatomic quaternary Heusler alloys for spintronic applications. \textit{Applied Physics Reviews}, 3, 031101 (2016).
+
+\end{enumerate}
+
+\end{document}
